@@ -1,1 +1,2 @@
 # lib.cpp
+standart library
