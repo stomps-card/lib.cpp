@@ -1,0 +1,17 @@
+#include <iostream>
+#include <algorithm>
+
+int main() {
+    // Input: a string
+    std::string inputString;
+    std::cout << "Enter a string: ";
+    std::cin >> inputString;
+
+    // Reverse the string using std::reverse
+    std::reverse(inputString.begin(), inputString.end());
+
+    // Display the reversed string
+    std::cout << "Reversed String: " << inputString << std::endl;
+
+    return 0;
+}
